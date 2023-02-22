@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/estilo.css">
+    <script src="https://kit.fontawesome.com/3922c9a6a2.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="container"> 
+        <div class="calculator">
+            <div class="theme-toggler">
+                <i class="fa-solid fa-moon"></i>
+            </div>
+
+            <div class="display-screem">
+                <div id="display"></div>               
+            </div>
+
+                <div class="buttons">
+                    <table>
+                        <tr>
+                            <td><button class="btn-operator" id="clear">C</button></td>
+                            <td><button class="btn-operator" id="simbolo" value="/">/</button></td>
+                            <td><button class="btn-operator" id="simbolo" value="*">*</button></td>
+                            <td><button class="btn-operator" id="backspace"><i class="fa-solid fa-delete-left"></i>
+                            </button></td>
+                        </tr>
+
+                        <tr>
+                            <td><button class="btn-number" id="numero" value="7">7</button></td>
+                            <td><button class="btn-number" id="numero" value="8">8</button></td>
+                            <td><button class="btn-number" id="numero" value="9">9</button></td>
+                            <td><button class="btn-operator" id="simbolo" value="-">-</button></td>
+                        </tr>
+
+                        <tr>
+                            <td><button class="btn-number" id="numero"  value="4">4</button></td>
+                            <td><button class="btn-number" id="numero"  value="5">5</button></td>
+                            <td><button class="btn-number" id="numero"  value="6">6</button></td>
+                            <td><button class="btn-operator" id="simbolo"  value="+">+</button></td>
+                        </tr>
+
+
+
+                        <tr>
+                            <td><button class="btn-number" id="numero" value="1">1</button></td>
+                            <td><button class="btn-number" id="numero" value="2">2</button></td>
+                            <td><button class="btn-number" id="numero" value="3">3</button></td>
+                            <td rowspan="2"><button class="btn-equal" id="equal">=</button></td>
+                        </tr>
+
+                        <tr>
+                            <td><button class="btn-operator" id="." value=".">.</button></td>
+                            <td><button class="btn-number" id="numero" value="0">0</button></td>
+                            
+                            <td><button class="btn-operator" id="numero" value="00">00</button></td>
+                            
+                        </tr>
+
+                        
+                    </table>
+                </div>
+           
+
+
+        </div>
+    </div>
+    <script src="app.js"></script>
+    
+</body>
+</html>
